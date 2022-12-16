@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 /** Example of calling
  * Normal: php components/com_startcomponent/copyFiles.php
@@ -8,6 +9,11 @@
 
 /** @var $noRsync - will not run rsync commands */
 /** @var $noConversion - will not run rsync commands */
+
+// Stop if we're trying to run via a non-cli interface such as a web server.
+if (php_sapi_name() != "cli") {
+	exit("cli only");
+}
 
 $noRsync      = false;
 $noConversion = false;
