@@ -17,4 +17,5 @@ $replaceStrings = [
 	"Factory::getLanguage()"                          => "Factory::getApplication()->getLanguage()",
 	"Factory::getDocument()"                          => "Factory::getApplication()->getDocument()",
 	"Factory::getConfig()"                            => "Factory::getApplication()->getConfig()",
+	"Factory::getSession()"                           => "Factory::getApplication()->getSession()",
 ];
