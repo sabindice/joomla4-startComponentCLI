@@ -1,0 +1,17 @@
+{
+    "name": "sabindice/com_startcomponent-cli",
+    "type": "library",
+    "description": "A CLI script for easy converting Joomla 3 to Joomla 4 components (frontend)",
+    "keywords": ["joomla3","joomla4", "joomla", "coverting"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sabin Bunea",
+            "email": "sabib.bunea@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+}
